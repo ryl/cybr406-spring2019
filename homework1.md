@@ -2,8 +2,8 @@
 
 Due beginning of class Thursday, January 10th.
 
-* Create a free Heroku account at [https://signup.heroku.com](https://signup.heroku.com)
-* Install the Heroku command line tools from [https://devcenter.heroku.com/articles/heroku-cli](https://devcenter.heroku.com/articles/heroku-cli)
+* [Create a free Heroku account.](https://signup.heroku.com)
+* [Install the Heroku command line tools.](https://devcenter.heroku.com/articles/heroku-cli)
 * Verify you can log in using the command line tools.
 
     ````
