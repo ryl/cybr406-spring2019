@@ -7,7 +7,7 @@
     * What is a monolith?
     * What are microservices?
     * Introduce course tools.
-    * Homework - Setup Accounts (Due on 01/10/19 start of class)
+    * [Homework - Setup Accounts (Due on 01/10/19 start of class)](/homework1.md)
 * **Thursday, January 10th**  
   Cover the basics of the Spring framework. Deploy to Heroku.
     * Procfile
