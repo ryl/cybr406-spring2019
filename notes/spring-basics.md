@@ -31,6 +31,16 @@ we accomplish early on will be done through annotations.
   These work the same as `@RequestMapping`, but only for one particular HTTP
   method. I recommend using these annotations instead of `@RequestMapping` when
   only one HTTP method is really appropriate.
+* `@RequestParam`  
+  Marks a method argument as a request parameter.
+* `@PathVariable`
+  Marks a method argument as a path variable. The name of the method variable
+  should match a section of the URL enclosed in curly braces.
+  ```
+  @GetMapping("/path/to/{name}")
+  public String pathGreeting(@PathVariable String name)  {
+  ...
+  ```
 * `@Value`  
   Apply a value from the application's properties to a Java variable.
 
@@ -46,7 +56,7 @@ annotations capabilities by doing this.
 * Generate a new project using
   [Spring Boot Initializer](https://start.spring.io/)
     * Choose `Gradle Project` as your project format.
-    * Use "com.cybr406" as the group
+    * Use "com.cybr406" as the group.
     * Use "basics" as the artifact name.
     * Add the "Web" dependency only.
     * Generate and download the project zip file.
@@ -58,7 +68,7 @@ annotations capabilities by doing this.
 * Create a new class to act as a controller.
 * See if you can create an endpoint that will return a `String` that reads
   "Hello, world."
-  
+
 ## Unit Test Challenges.
 
 Add [BasicsApplicationTests.java](../files/BasicsApplicationTests.java) to your project's test folder. See if you can get all the tests passing.
