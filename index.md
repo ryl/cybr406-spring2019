@@ -16,6 +16,7 @@
     * Introduce course tools.
     * [Homework - Setup Accounts (Due on 01/10/19 start of class)](/homework1.md)
 * **Thursday, January 10th**  
+  [Notes - Spring Basics](/notes/spring-basics.md)  
   Cover the basics of the Spring framework. Deploy to Heroku.
     * Procfile
     * Application profiles
