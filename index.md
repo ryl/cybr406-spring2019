@@ -1,3 +1,10 @@
+# Resources
+
+* [Spring Boot Initializer](https://start.spring.io) - Generate project skeletons.
+* [Common Spring Properties](https://docs.spring.io/spring-boot/docs/current/reference/html/common-application-properties.html) - Adjust the many settings provided by Spring.
+* [WizTools RESTClient](https://github.com/wiztools/rest-client/releases/download/3.7.1/restclient-ui-fat-3.7.1.jar) - A Java based REST GUI.
+* [Postman](https://www.getpostman.com/) - A nice REST GUI.
+
 # Class Schedule
 
 **January**
