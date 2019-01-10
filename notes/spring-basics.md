@@ -51,7 +51,7 @@ after it, place your cursor inside, and use the shortcut `Ctrl + P` to see the
 various arguments the annotation accepts. You can learn a lot about the
 annotations capabilities by doing this.
 
-## Generate a New Project.
+## Generate a New Project
 
 * Generate a new project using
   [Spring Boot Initializer](https://start.spring.io/)
@@ -69,6 +69,6 @@ annotations capabilities by doing this.
 * See if you can create an endpoint that will return a `String` that reads
   "Hello, world."
 
-## Unit Test Challenges.
+## Unit Test Challenges
 
 Add [BasicsApplicationTests.java](../files/BasicsApplicationTests.java) to your project's test folder. See if you can get all the tests passing.
