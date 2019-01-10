@@ -58,5 +58,7 @@ annotations capabilities by doing this.
 * Create a new class to act as a controller.
 * See if you can create an endpoint that will return a `String` that reads
   "Hello, world."
-* Once you've made that far, add this sessions unit tests to your project and
-  see if you can make them all pass.
+  
+## Unit Test Challenges.
+
+Add [BasicsApplicationTests.java](../files/BasicsApplicationTests.java) to your project's test folder. See if you can get all the tests passing.
