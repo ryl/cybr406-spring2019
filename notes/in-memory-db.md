@@ -48,7 +48,7 @@ H2 has a simple database UI you can enable in `application.properties`.
     spring.h2.console.enabled = true
 
 This setting is one of the [Common Spring Properties]. After you launch your
-application, visit `http://localhost:8080/h2-console`. Log in with the following
+application, visit http://localhost:8080/h2-console. Log in with the following
 settings:
 
 | Setting      | Value                   |
