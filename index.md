@@ -26,7 +26,7 @@
     * Posted input
     * Introduce validation.
 * **Tuesday, January 15th**  
-  [Notes - In-Memory Databases](/notes/in-memory-db.md)
+  [Notes - In-Memory Databases](/notes/in-memory-db.md)  
   Start saving data.
     * Introduce in-memory database.
     * Create `Post`.
