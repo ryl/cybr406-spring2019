@@ -3,7 +3,7 @@
 This session will focus on teaching you the basic building blocks of creating a
 REST API.
 
-Solution Project: https://github.com/ryl/cybr406-basics
+Solution Project: [https://github.com/ryl/cybr406-basics](https://github.com/ryl/cybr406-basics)
 
 ## HTTP Concepts
 
