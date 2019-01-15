@@ -118,8 +118,9 @@ public class Post {
 * `@GeneratedValue` indicates the database should generate this value. The
    strategy parameter indicates how to generate the value. There are [other
    possible values][GenerationType], but we will mostly use `IDENTITY`.
-* `@Lob` indicates this field is a `Large Object`, and requires a database
-  column that can store a large blob of data.
+* `@Lob` indicates this field is a "large object", and requires a database
+  column that can store a large blob of data. If we want to write a long
+  article containing thousands of words, this annotation makes it possible.
 
 ### Post Repository
 
@@ -147,7 +148,7 @@ public interface PostRepository extends JpaRepository<Post, Long> {
       identifies the object.
 
 Notice there is absolutely no code here. For now we will inherit functionality
-from `JpaRepository`. In future exercises, we will add additional methods here.
+from `JpaRepository`. In future exercises we will add additional methods here.
 To use the repository, `@Autowire` it into a controller.
 
 ```
