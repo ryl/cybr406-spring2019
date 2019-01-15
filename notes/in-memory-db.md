@@ -88,8 +88,8 @@ Imagine we wanted to create an application that can save blog posts to a
 database. Here is how we would begin using JPA:
 
 1. Create a Java class that represents a post.
-* Annotate the post object with JPA annotations.
-* Create a repository for managing post objects.
+2. Annotate the post object with JPA annotations.
+3. Create a repository for managing post objects.
 
 ```
 import javax.persistence.*;
