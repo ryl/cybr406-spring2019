@@ -82,7 +82,7 @@ JPA can be added via [Spring Boot Initializer] or manually.
 This dependency is added as an `implementation` dependency, meaning it is
 required at compile time.
 
-## JPA Annotations and Repositories
+## JPA Example
 
 Imagine we wanted to create an application that can save blog posts to a
 database. Here is how we would begin using JPA:
@@ -90,6 +90,8 @@ database. Here is how we would begin using JPA:
 1. Create a Java class that represents a post.
 2. Annotate the post object with JPA annotations.
 3. Create a repository for managing post objects.
+
+### Post Object
 
 ```
 import javax.persistence.*;
@@ -119,6 +121,53 @@ public class Post {
 * `@Lob` indicates this field is a `Large Object`, and requires a database
   column that can store a large blob of data.
 
+### Post Repository
+
+A `Repository` is an interface that exposes CRUD-like (Create Retrieve Update
+Delete) operations. It provides a means for interacting with the database.
+
+```
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
+
+@Repository
+public interface PostRepository extends JpaRepository<Post, Long> {
+
+}
+```
+
+* `@Repository` identifies this interface as a repository.
+* `PostRepository` is an interface, not a class.
+* `PostRepository` extends from `JpaRepository` which takes 2 generic arguments
+  `T` and `ID`.
+    * `T` is the type of object this repository will manage. `Post` in this
+      case.
+    * `ID` is the data type of the object field marked with `@Id`. `Long` in
+      this case. It must match the data type of the field that uniquely
+      identifies the object.
+
+Notice there is absolutely no code here. For now we will inherit functionality
+from `JpaRepository`. In future exercises, we will add additional methods here.
+To use the repository, `@Autowire` it into a controller.
+
+```
+@RestController
+public class PostController {
+
+    @Autowired
+    PostRepository postRepository;
+
+    @GetMapping("/posts")
+    public Page<Post> posts(Pageable pageable) {
+        return postRepository.findAll(pageable);
+    }
+
+}
+```
+
+The controller above demonstrates how a repository can be used to supply
+paginated data. The `Pageable` allows the endpoint to accept `page`, `size`, and
+`sort` parameters.
 
 [h2]: http://www.h2database.com/html/main.html
 [HSQLDB]: http://hsqldb.org/
