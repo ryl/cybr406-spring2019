@@ -1,3 +1,8 @@
+# Communication
+
+* Ry Lowry (lowryrs@unk.edu)
+* [Slack](https://cybr406.slack.com)
+
 # Resources
 
 * [Spring Boot Initializer](https://start.spring.io) - Generate project skeletons.
