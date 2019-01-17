@@ -170,6 +170,28 @@ The controller above demonstrates how a repository can be used to supply
 paginated data. The `Pageable` allows the endpoint to accept `page`, `size`, and
 `sort` parameters.
 
+## Debugging SQL
+
+If you want to debug the SQL that JPA is creating, add the following to
+`application.properties`:
+
+```
+# Generated SQL statements will be logged.
+# This is a good starting point that won't overwhelm your logs with information.
+spring.jpa.show-sql = true
+
+# This has the same outcome as the property shown above.
+logging.level.org.hibernate.SQL = DEBUG
+
+# This property will log the values being bound to SQL prepared statements
+# without dumping out an overwhelming amount of information.
+logging.level.org.hibernate.type.descriptor.sql.BasicBinder = TRACE
+
+# This property will reveal even more information about bindings and values.
+# Expect a large amount of logging in your console.
+logging.level.org.hibernate.type = TRACE
+```
+
 [h2]: http://www.h2database.com/html/main.html
 [HSQLDB]: http://hsqldb.org/
 [Mysql]: https://www.mysql.com/
