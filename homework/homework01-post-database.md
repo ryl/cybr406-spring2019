@@ -15,7 +15,7 @@ blog posts.
 
 ## Resources
 
-* [Notes - In-Memory Databases](../notes/in-memory-db.md)
-    * [https://github.com/ryl/cybr406-basics](https://github.com/ryl/cybr406-basics)
 * [Notes - Spring Basics](../notes/spring-basics.md)
+    * [https://github.com/ryl/cybr406-basics](https://github.com/ryl/cybr406-basics)
+* [Notes - In-Memory Databases](../notes/in-memory-db.md)
     * [https://github.com/ryl/cybr406-dbdemo](https://github.com/ryl/cybr406-dbdemo) Demo from 01/17/2019 database intro.
