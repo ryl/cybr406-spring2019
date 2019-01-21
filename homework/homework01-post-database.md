@@ -7,7 +7,7 @@ blog posts.
 
 ## Instructions
 
-* Clone [https://github.com/ryl/cybr406-homework1](https://github.com/ryl/cybr406-homework1)
+* Download the starter project [https://github.com/ryl/cybr406-homework1/archive/v1.0.zip](https://github.com/ryl/cybr406-homework1/archive/v1.0.zip)
 * Run `HomeworkTestSuite.java` located in the test folder. Work your way through
   each set of tests until they all pass. Work through the problems in the
   general order they appear in `HomeworkTestSuite.java`.
