@@ -9,7 +9,7 @@ Create a new app in the top right corner.
 
 ## Step 2
 
-Name you app using using the same pattern as your UNK
+Name your app using the same pattern as your UNK
 email, followed by the homework name. For example, `lowryrs-homework1`.
 
 <img src="../images/heroku-setup-2.png"/>
