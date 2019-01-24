@@ -1,6 +1,4 @@
-# Setup Heroku
-
-Due beginning of class Thursday, January 10th.
+# Heroku
 
 * [Create a free Heroku account.](https://signup.heroku.com)
 * [Install the Heroku command line tools.](https://devcenter.heroku.com/articles/heroku-cli)
@@ -12,5 +10,5 @@ Due beginning of class Thursday, January 10th.
     Logging in... done
     Logged in as lowryrs@unk.edu
     ````
-    
+
  Congrats, you're ready to go!
