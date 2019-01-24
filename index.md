@@ -10,6 +10,7 @@
 * [WizTools RESTClient](https://github.com/wiztools/rest-client/releases/download/3.7.1/restclient-ui-fat-3.7.1.jar) - A Java based REST GUI.
 * [Postman](https://www.getpostman.com/) - A nice REST GUI.
 * [Heroku Project Setup](/notes/heroku-project-setup.md)
+* [GitHub + Heroku Project Setup](/notes/github-project-setup.md)
 
 # Class Schedule
 
