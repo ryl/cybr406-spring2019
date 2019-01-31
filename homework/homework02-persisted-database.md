@@ -7,7 +7,7 @@ in Heroku and switch from JPA migrations to Liquibase migrations.
 
 ## Instructions
 
-* Download the starter project [https://github.com/ryl/cybr406-homework2/archive/v1.0.zip](https://github.com/ryl/cybr406-homework2/archive/v1.0.zip
+* Download the starter project [https://github.com/ryl/cybr406-homework2/archive/v1.0.zip](https://github.com/ryl/cybr406-homework2/archive/v1.0.zip)
 * Deploy to Heroku and attach a PostgreSQL database before starting work on unit tests.
 * Run `HomeworkTestSuite.java` located in the test folder. Work your way through
   each set of tests until they all pass. Work through the problems in the
