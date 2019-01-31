@@ -57,13 +57,14 @@
     * Solution: database migrations.
     * Why are they needed?
     * What are the advantages?
-* **Thursday, January 24th**  
+* **Thursday, January 24th**
+  [Notes - Database Migrations](/notes/database-migrations.md)  
   Work Day.
     * Add PostgreSQL addon to Heroku project.
     * Write migration file with `post` table.
     * Add `date` to model
     * Add new column via migration.
-    * Homework - Migrate project from in-memory database to persisted database (Due 01/29/19 by 5:00)
+    * [Homework - Migrate project from in-memory database to persisted database (Due 02/06/19 by 5:00)](/homework/homework02-persisted-database.md)
 * **Tuesday, January 29th**  
   New microservice: `user`
     * Manage a list of users.
