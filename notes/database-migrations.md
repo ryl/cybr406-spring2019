@@ -64,7 +64,48 @@ runs with by using the `--spring.profiles.active={your-profile-here}` argument.
 
 ## JPA Migrations
 
+JPA has some simple settings for managing database migrations.
+
+* `spring.jpa.hibernate.ddl-auto={value}`
+    * Controls how migrations are automatically hanlded on startup.
+    * `create` Create tables on application startup. Do not drop them during shutdown.
+    * `create-drop` Create on startup, drop on shutdown. Similar to using an embedded database.
+    * `update` Update tables in needed.
+    * `validate` Validate that tables match your Java classes.
+    * `none` Do nothing at all.
+* `spring.datasource.initialization-mode={value}`
+    * Controls when `data.sql` is loaded.
+    * `always` Always initialize the database.
+    * `never` Never initialize the database.
+    * `embedded` (default) Only initialize the DB if an embedded database is
+      detected.
+* `spring.datasource.platform={database platform}`
+    * Additionally load a `data-{platform}.sql` file when present.
+* See [Common Spring Properties](https://docs.spring.io/spring-boot/docs/current/reference/html/common-application-properties.html) for more details.
+
+**Advantages**
+* Very little work needed to get started.
+* Easy to prototype with.
+
+**Disadvantages**
+* Juggling configuration values during deployments.
+
 ## Liquibase Migrations
 
 * [Liquibase Home](https://www.liquibase.org/)
 * [Liquibase Changes Documentation](https://www.liquibase.org/documentation/changes/index.html)
+
+Manage changes to you database without needing to juggle configurations between
+deployments, and without filling your git history with noise. Tables, columns,
+and data can all be managed through a change log, which describes the evolution
+of your database over time.
+
+**Advantages**
+* Support multiple databases. Types your change log will automatically map to the correct database specific type.
+    * [Basic Liquibase Column Types](https://www.liquibase.org/documentation/column.html)
+    * [Supported Java SQL Types](https://docs.oracle.com/javase/8/docs/api/java/sql/Types.html) - Use these if the
+      basic types don't meet your needs.
+* Less tinkering in `application.properties` files.
+
+**Disadvantages**
+* More initial work to set up change log.
