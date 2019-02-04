@@ -17,7 +17,7 @@
 | Date | Topic | Notes | Homework | Due |
 |------|-------|-------|----------|-----|
 | 01/31/19 | Database migrations | [Database Migrations](/notes/database-migrations.md) | [Migrate project from in-memory database to persisted database](/homework/homework02-persisted-database.md) | 02/06/19 |
-| 02/05/19 | User microservice, Spring Data REST | | | | |
+| 02/05/19 | User microservice, Spring Data REST | | | |
 
 # Class Topics
 
