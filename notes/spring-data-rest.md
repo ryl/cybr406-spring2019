@@ -39,9 +39,16 @@ public class BookConfiguration implements RepositoryRestConfigurer {
 
 ## Customize Controller Behavior
 
-See [Overriding Spring Data REST Response Handlers].
+* [Customize controller responses.](Response Handlers)
+* [Use projections to alter the view model.](Projections)
+
+## React to Events
+
+* [Write an annotated event handler.](Annotated Event Handler)
 
 [Documentation]: https://docs.spring.io/spring-data/rest/docs/current/reference/html/
 [Registering Validators]: https://docs.spring.io/spring-data/rest/docs/3.1.4.RELEASE/reference/html/#_assigning_validators_manually
 [Events]: https://docs.spring.io/spring-data/rest/docs/3.1.4.RELEASE/reference/html/#events
-[Overriding Spring Data REST Response Handlers]: https://docs.spring.io/spring-data/rest/docs/current/reference/html/#customizing-sdr.overriding-sdr-response-handlers
+[Response Handlers]: https://docs.spring.io/spring-data/rest/docs/current/reference/html/#customizing-sdr.overriding-sdr-response-handlers
+[Projections]: https://docs.spring.io/spring-data/rest/docs/current/reference/html/#projections-excerpts
+[Annotated Event Handler]: https://docs.spring.io/spring-data/rest/docs/current/reference/html/#_writing_an_annotated_handler
