@@ -1,6 +1,6 @@
 # Spring Data REST
 
-[Documentation]
+[Documentation][]
 
 Spring Data REST can help you quickly expose repositories over REST.
 
@@ -20,7 +20,7 @@ public interface BookRepository extends JpaRepository<Book, Long> {
 * Extend `RepositoryRestConfigurer`
 * Override methods to adjust Spring Data REST behavior.
 * Override `configureValidatingRepositoryEventListener` to register validators.
-* [Register your validator with an event.](Events)
+* [Register your validator with an event.][Events]
 
 ```
 @Configuration
@@ -39,12 +39,12 @@ public class BookConfiguration implements RepositoryRestConfigurer {
 
 ## Customize Controller Behavior
 
-* [Customize controller responses.](Response Handlers)
-* [Use projections to alter the view model.](Projections)
+* [Customize controller responses.][Response Handlers]
+* [Use projections to alter the view model.][Projections]
 
 ## React to Events
 
-* [Write an annotated event handler.](Annotated Event Handler)
+* [Write an annotated event handler.][Annotated Event Handler]
 
 [Documentation]: https://docs.spring.io/spring-data/rest/docs/current/reference/html/
 [Registering Validators]: https://docs.spring.io/spring-data/rest/docs/3.1.4.RELEASE/reference/html/#_assigning_validators_manually
