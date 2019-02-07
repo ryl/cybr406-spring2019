@@ -5,19 +5,20 @@
 
 # Resources
 
-* [Spring Boot Initializer](https://start.spring.io) - Generate project skeletons.
-* [Common Spring Properties](https://docs.spring.io/spring-boot/docs/current/reference/html/common-application-properties.html) - Adjust the many settings provided by Spring.
-* [WizTools RESTClient](https://github.com/wiztools/rest-client/releases/download/3.7.1/restclient-ui-fat-3.7.1.jar) - A Java based REST GUI.
-* [Postman](https://www.getpostman.com/) - A nice REST GUI.
-* [Heroku Project Setup](/notes/heroku-project-setup.md)
-* [GitHub + Heroku Project Setup](/notes/github-project-setup.md)
+* [Spring Boot Initializer][] - Generate project skeletons.
+* [Common Spring Properties][] - Adjust the many settings provided by Spring.
+* [WizTools RESTClient][]  - A Java based REST GUI.
+* [Postman][] - A nice REST GUI.
+* [Heroku Project Setup][]
+* [GitHub + Heroku Project Setup][]
 
 # Class Log
 
-| Date | Topic | Notes | Homework | Due |
-|------|-------|-------|----------|-----|
-| 01/31/19 | Database migrations | [Database Migrations](/notes/database-migrations.md) | [Homework 2](/homework/homework02-persisted-database.md) | 02/06/19 |
-| 02/05/19 | User microservice, Spring Data REST | [Spring Data REST](/notes/spring-data-rest.md) | | |
+| Date | Topic | Notes | Demos | Homework | Due |
+|------|-------|-------|-------|----------|-----|
+| 01/31/19 | Database migrations | [Database Migrations][] | | [Homework 2][] | 02/06/19 |
+| 02/05/19 | User microservice, Spring Data REST | [Spring Data REST][] | [Books Demo][] | | |
+| 02/07/19 | Deploy user microservice, gateways | [Gateways][] | | | | |
 
 # Class Topics
 
@@ -192,3 +193,22 @@
   Final project work day
 * **Thursday, April 30th**  
   Finals Week - Present Final projects
+
+<!-- Resources -->
+[Spring Boot Initializer]: https://start.spring.io
+[Common Spring Properties]: https://docs.spring.io/spring-boot/docs/current/reference/html/common-application-properties.html
+[WizTools RESTClient]: https://github.com/wiztools/rest-client/releases/download/3.7.1/restclient-ui-fat-3.7.1.jar
+[Postman]: https://www.getpostman.com
+[Heroku Project Setup]: /notes/heroku-project-setup.md
+[GitHub + Heroku Project Setup]: /notes/github-project-setup.md
+
+<!-- Notes -->
+[Database Migrations]: /notes/database-migrations.md
+[Spring Data REST]: /notes/spring-data-rest.md
+[Gateways]: /notes/gateways.md
+
+<!-- Demos -->
+[Books Demo]: https://github.com/ryl/cybr406-books
+
+<!-- Homework -->
+[Homework 2]: /homework/homework02-persisted-database.md
