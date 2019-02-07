@@ -18,7 +18,7 @@
 |------|-------|-------|-------|----------|-----|
 | 01/31/19 | Database migrations | [Database Migrations][] | | [Homework 2][] | 02/06/19 |
 | 02/05/19 | User microservice, Spring Data REST | [Spring Data REST][] | [Books Demo][] | | |
-| 02/07/19 | Deploy user microservice, gateways | [Gateways][] | | | | |
+| 02/07/19 | Deploy user microservice, gateways | [Gateways][] | | | |
 
 # Class Topics
 
