@@ -19,6 +19,7 @@
 | 01/31/19 | Database migrations | [Database Migrations][] | | [Homework 2][] | 02/06/19 |
 | 02/05/19 | User microservice, Spring Data REST | [Spring Data REST][] | [Books Demo][] | | |
 | 02/07/19 | Deploy user microservice, gateways | [Gateways][] | | | |
+| 02/12/19 | Deploy gateway, start security | [Security Basics][] | [Books Demo][] | | |
 
 # Class Topics
 
@@ -83,7 +84,6 @@
   Introduction to gateways, they really tie the room together.
     * Why is it useful?
     * How can we implement it in spring?
-    * Homework - Unify your API behind a gateway (Due 02/05/19 by 5:00)
 
 **February**
 
@@ -206,6 +206,7 @@
 [Database Migrations]: /notes/database-migrations.md
 [Spring Data REST]: /notes/spring-data-rest.md
 [Gateways]: /notes/gateways.md
+[Security Basics]: /notes/security-basics.md
 
 <!-- Demos -->
 [Books Demo]: https://github.com/ryl/cybr406-books
