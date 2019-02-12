@@ -6,7 +6,7 @@
 
 ## Dependencies
 
-** build.gradle **
+**build.gradle**
 ```
 implementation 'org.springframework.boot:spring-boot-starter-security'
 ```
