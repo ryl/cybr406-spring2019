@@ -211,7 +211,7 @@
 [Spring Data REST]: /notes/spring-data-rest.md
 [Gateways]: /notes/gateways.md
 [Security - Basics]: /notes/security-basics.md
-[Security - Advanced]: /notes/security-basics.md
+[Security - Advanced]: /notes/security-advanced.md
 
 <!-- Demos -->
 [Books Demo]: https://github.com/ryl/cybr406-books
