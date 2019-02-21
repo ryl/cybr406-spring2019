@@ -16,8 +16,12 @@ own profiles. An admin user will should be able to edit all profiles.
 * [Security - Advanced][]
 * [Security - Checklist][]
 * [Books Demo][]
+* [User Project][]
+* [Git][]
 
 [Security - Basics]: ../notes/security-basics.md
 [Security - Advanced]: ../notes/security-advanced.md
 [Security - Checklist]: ../notes/security-checklist.md
 [Books Demo]: https://github.com/ryl/cybr406-books
+[User Project]: https://github.com/ryl/cybr406-user
+[Git]: ../notes/git.md
