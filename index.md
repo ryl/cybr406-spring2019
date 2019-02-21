@@ -21,8 +21,9 @@
 | 02/05/19 | User microservice, Spring Data REST | [Spring Data REST][] | [Books Demo][] | | |
 | 02/07/19 | Deploy user microservice, gateways | [Gateways][] | | | |
 | 02/12/19 | Deploy gateway, start security | [Security - Basics][] | [Books Demo][] | | |
-| 02/14/19 | Discussed CSRF, Sessions, and HTTP Basic Auth | [Security - Advanced][] | [Books Demo][] | | |
-| 02/19/19 | Method level security. Writing users to DB via code. | [Security - Advanced][] | [Books Demo][] | | |
+| 02/14/19 | Discussed CSRF, Sessions, and HTTP Basic Auth | [Security - Advanced][] | | | |
+| 02/19/19 | Method level security. Writing users to DB via code. | | | | |
+| 02/21/19 | Method level security. Registration. | [Security - Checklist][] | | [Homework 3][] | |
 
 # Class Topics
 
@@ -212,9 +213,11 @@
 [Gateways]: /notes/gateways.md
 [Security - Basics]: /notes/security-basics.md
 [Security - Advanced]: /notes/security-advanced.md
+[Security - Checklist]: /notes/security-checklist.md
 
 <!-- Demos -->
 [Books Demo]: https://github.com/ryl/cybr406-books
 
 <!-- Homework -->
 [Homework 2]: /homework/homework02-persisted-database.md
+[Homework 3]: /homework/homework03-user-security.md
