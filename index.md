@@ -27,6 +27,7 @@
 | 02/21/19 | Work Day | | | | |
 | 02/26/19 | Work Day | | | | |
 | 02/28/19 | Work Day | | | | |
+| 03/07/19 | [Buckle Open House 6pm - 8pm][open-house] | | | | |
 
 # Class Topics
 
@@ -217,6 +218,7 @@
 [Security - Basics]: /notes/security-basics.md
 [Security - Advanced]: /notes/security-advanced.md
 [Security - Checklist]: /notes/security-checklist.md
+[open-house]: /notes/open-house.md
 
 <!-- Demos -->
 [Books Demo]: https://github.com/ryl/cybr406-books
