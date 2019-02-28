@@ -23,7 +23,7 @@
 | 02/12/19 | Deploy gateway, start security | [Security - Basics][] | [Books Demo][] | | |
 | 02/14/19 | Discussed CSRF, Sessions, and HTTP Basic Auth | [Security - Advanced][] | | | |
 | 02/19/19 | Method level security. Writing users to DB via code. | | | | |
-| 02/21/19 | Method level security. Registration. | [Security - Checklist][] | | [Homework 3][] | 02/29/19 |
+| 02/21/19 | Method level security. Registration. | [Security - Checklist][] | | [Homework 3][] | 03/01/19 |
 | 02/21/19 | Work Day | | | | |
 | 02/26/19 | Work Day | | | | |
 | 02/28/19 | Work Day | | | | |

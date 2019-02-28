@@ -1,6 +1,6 @@
 # Add Security to the User Microservice
 
-Due on 02/29/19 by 5:00pm
+Due on 03/01/19 by 5:00pm
 
 In this homework assignment you will add security to the user microservice. You
 will create a controller for registering new users, and allow them to edit their
