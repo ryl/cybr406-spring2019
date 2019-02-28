@@ -27,7 +27,7 @@
 | 02/21/19 | Work Day | | | | |
 | 02/26/19 | Work Day | | | | |
 | 02/28/19 | Work Day | | | | |
-| 03/07/19 | [Buckle Open House 6pm - 8pm][open-house] | | | | |
+| 03/07/19 | [Buckle Open House 6pm - 8pm][open-house] | [Google Maps](https://goo.gl/maps/4VzUbQfjgWk) | | | |
 
 # Class Topics
 
