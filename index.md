@@ -28,6 +28,7 @@
 | 02/26/19 | Work Day | | | | |
 | 02/28/19 | Work Day | | | | |
 | 03/07/19 | [Buckle Open House 6pm - 8pm][open-house] | [Google Maps](https://goo.gl/maps/4VzUbQfjgWk) | | | |
+| 02/05/19 | [Event Handler Shortcomings]() | | | | |
 
 # Class Topics
 
@@ -219,6 +220,7 @@
 [Security - Advanced]: /notes/security-advanced.md
 [Security - Checklist]: /notes/security-checklist.md
 [open-house]: /notes/open-house.md
+[Event Handler Shortcomings]: /notes/event-handler-shortcomings.md
 
 <!-- Demos -->
 [Books Demo]: https://github.com/ryl/cybr406-books
