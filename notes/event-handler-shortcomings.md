@@ -24,7 +24,7 @@ The problem with this approach is `authorRepository.findById(author.getId())`
 does not return the author as it appears in the database. It is already a
 "managed entity" by JPA.
 
-[This has been a shortcoming of Spring Data Rest for some time.](DATAREST-373)
+[This has been a shortcoming of Spring Data Rest for some time.][DATAREST-373]
 
 It would be nice if we could compare the submitted author updates with what
 exists in the database, so we could take action if a specific change was made.
