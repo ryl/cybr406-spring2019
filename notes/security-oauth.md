@@ -54,6 +54,12 @@ OAuth has two different server concepts: authorization and resource servers.
 * Serves up protected resources.
 * A token must be provided to access resources.
 
+## Links
+
+* [developer guide](https://projects.spring.io/spring-security-oauth/docs/oauth2.html)
+* [tutorial](https://projects.spring.io/spring-security-oauth/docs/tutorial.html)
+* [sparklr auth server example](https://github.com/spring-projects/spring-security-oauth/blob/master/samples/oauth2/sparklr/src/main/java/org/springframework/security/oauth/examples/sparklr/config/OAuth2ServerConfig.java)
+
 [oauth]: https://oauth.net/2/
 [grant types]: https://oauth.net/2/grant-types/
 [password grant type]:https://developer.okta.com/blog/2018/06/29/what-is-the-oauth2-password-grant

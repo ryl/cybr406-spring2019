@@ -1,6 +1,6 @@
 {
 	"info": {
-		"_postman_id": "68d62bed-f7b0-4d92-8fc3-f8b6c915e76c",
+		"_postman_id": "c5d8cf28-c356-4b1f-83e3-5fc8c19c4cd9",
 		"name": "OAuth Demo",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
 	},
@@ -8,6 +8,29 @@
 		{
 			"name": "User",
 			"item": [
+				{
+					"name": "Get Profiles",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "http://localhost:8081/profiles",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8081",
+							"path": [
+								"profiles"
+							]
+						}
+					},
+					"response": []
+				},
 				{
 					"name": "Sign Up (lowryrs)",
 					"request": {
@@ -450,7 +473,7 @@
 							"raw": ""
 						},
 						"url": {
-							"raw": "http://localhost:8082/posts",
+							"raw": "http://localhost:8082/posts?size=100",
 							"protocol": "http",
 							"host": [
 								"localhost"
@@ -458,6 +481,12 @@
 							"port": "8082",
 							"path": [
 								"posts"
+							],
+							"query": [
+								{
+									"key": "size",
+									"value": "100"
+								}
 							]
 						}
 					},
