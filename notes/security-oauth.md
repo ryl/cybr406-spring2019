@@ -6,7 +6,7 @@ without directly connecting to the user microservice's database? It would be
 nice if we could make the user microservice responsible for managing users and
 roles, and somehow share that information with other microservices.
 
-One way of accomplishing this is to use [OAuth]() for security.
+One way of accomplishing this is to use [OAuth][] for security.
 
 ## OAuth in the Real World
 
@@ -21,7 +21,7 @@ logged into Spotify using Facebook or Google.
 
 During this process, Spotify never directly handles your username or password.
 Instead, Facebook or Google verify your credentials, and then send Spotify a
-token which it may be used to access details of your account. Spotify uses this
+token which it can use to access the details of your account. Spotify uses this
 token instead of your credentials directly. This minimizes the risk of your
 password being stolen by 3rd party applications.
 
@@ -32,10 +32,10 @@ acquire a token.
 
 ## Grant Types
 
-There are several [grant types]() you can use for your application. Which one
+There are several [grant types][] you can use for your application. Which one
 you choose depends greatly on what you are trying to accomplish. We will use the
-[password grant type]() to get started, though [this grant type comes with a
-number of drawbacks](drawbacks). However, its simplicity will make it easier for
+[password grant type][] to get started, though [this grant type comes with a
+number of drawbacks][drawbacks]. However, its simplicity will make it easier for
 us to start exploring OAuth, so we will start with that knowing it may not be
 the perfect long-term solution.
 
@@ -43,12 +43,16 @@ the perfect long-term solution.
 
 OAuth has two different server concepts: authorization and resource servers.
 
-
 ### Authorization Server
 
-
+* Allows users to grant or deny permission to their personal resources.
+* Issues tokens based on requested grant type.
+* Manages a list of clients allowed to request authorization.
 
 ### Resource Server
+
+* Serves up protected resources.
+* A token must be provided to access resources.
 
 [oauth]: https://oauth.net/2/
 [grant types]: https://oauth.net/2/grant-types/
