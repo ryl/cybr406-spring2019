@@ -30,6 +30,8 @@
 | 03/05/19 | [Event Handler Shortcomings][] | | | | |
 | 03/07/19 | [Security - OAuth][] | | | | |
 | 03/07/19 | [Buckle Open House 6pm - 8pm][open-house] | [Google Maps](https://goo.gl/maps/4VzUbQfjgWk) | | | |
+| 03/12/19 | Work Day | | | [Homework 4][] | After spring break |
+| 03/14/19 | Class Project Intro | | | | |
 
 # Class Topics
 
@@ -230,3 +232,4 @@
 <!-- Homework -->
 [Homework 2]: /homework/homework02-persisted-database.md
 [Homework 3]: /homework/homework03-user-security.md
+[Homework 4]: /homework/homework04-user-oauth.md
