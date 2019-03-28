@@ -16,6 +16,8 @@
   * How will you prevent users from accessing the resources of other users?
   * What kind of roles will you need to add?
 
+Email your writeup to [lowryrs@unk.edu]()
+
 ## Part 2 - Dev Journal
 
 As you work on your project, write about the problems you came across and how
