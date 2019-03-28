@@ -31,7 +31,9 @@
 | 03/07/19 | [Security - OAuth][] | | | | |
 | 03/07/19 | [Buckle Open House 6pm - 8pm][open-house] | [Google Maps](https://goo.gl/maps/4VzUbQfjgWk) | | | |
 | 03/12/19 | Work Day | | | [Homework 4][] | After spring break |
-| 03/14/19 | Class Project Intro | | | | |
+| 03/14/19 | ~~Class Project Intro~~ Cancelled for weather | | | | |
+| 03/26/19 | OAuth sample demo, Work Day | | | | |
+| 03/28/19 | Class Project Intro, workday | | | [Project Proposal][project] | 04/01/19 |
 
 # Class Topics
 
@@ -233,3 +235,4 @@
 [Homework 2]: /homework/homework02-persisted-database.md
 [Homework 3]: /homework/homework03-user-security.md
 [Homework 4]: /homework/homework04-user-oauth.md
+[project]: /homework/project.md
