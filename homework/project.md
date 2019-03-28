@@ -2,16 +2,16 @@
 
 ## Part 1 - Proposal
 
-* **Section 1: Overview**
+* **Section 1: Overview**  
   Invent a feature, or features, you would like to add to the app. Describe the
   general functionality you are picturing here. Try not to go too overboard.
   Keep the scope fairly small and focused.
-* **Section 2: Unknowns**
+* **Section 2: Unknowns**  
   Describe the parts of your feature you are not familiar with. For example, if you
   want to allow a user to attach an uploaded file to a blog post, but you've
   never dealt with file uploads to a web server before, mention that in this
   section.
-* **Section 3: Security**
+* **Section 3: Security**  
   Describe any security concerns you anticipate.
   * How will you prevent users from accessing the resources of other users?
   * What kind of roles will you need to add?
