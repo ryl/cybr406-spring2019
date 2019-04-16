@@ -1,0 +1,663 @@
+{
+	"info": {
+		"_postman_id": "b3227da3-a58b-4756-95e9-28c4d827053a",
+		"name": "OAuth Demo Heroku",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "User",
+			"item": [
+				{
+					"name": "Get Profiles",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "https://lowryrs-blog.herokuapp.com/profiles",
+							"protocol": "https",
+							"host": [
+								"lowryrs-blog",
+								"herokuapp",
+								"com"
+							],
+							"path": [
+								"profiles"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Sign Up (lowryrs)",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "9496a0ba-15c4-4aa3-a550-52dc58578c86",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"email\": \"lowryrs@unk.edu\",\n\t\"password\": \"asdfasdf\",\n\t\"firstName\": \"Ry\",\n\t\"lastName\": \"Lowry\"\n}"
+						},
+						"url": {
+							"raw": "https://lowryrs-blog.herokuapp.com/signup",
+							"protocol": "https",
+							"host": [
+								"lowryrs-blog",
+								"herokuapp",
+								"com"
+							],
+							"path": [
+								"signup"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Sign Up (tester)",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"email\": \"test@example.com\",\n\t\"password\": \"test\",\n\t\"firstName\": \"Tester\",\n\t\"lastName\": \"Testerton\"\n}"
+						},
+						"url": {
+							"raw": "https://lowryrs-blog.herokuapp.com/signup",
+							"protocol": "https",
+							"host": [
+								"lowryrs-blog",
+								"herokuapp",
+								"com"
+							],
+							"path": [
+								"signup"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Token (lowryrs)",
+					"request": {
+						"auth": {
+							"type": "basic",
+							"basic": [
+								{
+									"key": "password",
+									"value": "",
+									"type": "string"
+								},
+								{
+									"key": "username",
+									"value": "api",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/x-www-form-urlencoded",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "grant_type",
+									"value": "password",
+									"type": "text"
+								},
+								{
+									"key": "username",
+									"value": "lowryrs@unk.edu",
+									"type": "text"
+								},
+								{
+									"key": "password",
+									"value": "asdfasdf",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "https://lowryrs-blog.herokuapp.com/oauth/token",
+							"protocol": "https",
+							"host": [
+								"lowryrs-blog",
+								"herokuapp",
+								"com"
+							],
+							"path": [
+								"oauth",
+								"token"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Token (tester)",
+					"request": {
+						"auth": {
+							"type": "basic",
+							"basic": [
+								{
+									"key": "password",
+									"value": "",
+									"type": "string"
+								},
+								{
+									"key": "username",
+									"value": "api",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"type": "text",
+								"value": "application/x-www-form-urlencoded"
+							}
+						],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "grant_type",
+									"value": "password",
+									"type": "text"
+								},
+								{
+									"key": "username",
+									"value": "test@example.com",
+									"type": "text"
+								},
+								{
+									"key": "password",
+									"value": "test",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "https://lowryrs-blog.herokuapp.com/oauth/token",
+							"protocol": "https",
+							"host": [
+								"lowryrs-blog",
+								"herokuapp",
+								"com"
+							],
+							"path": [
+								"oauth",
+								"token"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Token (admin)",
+					"request": {
+						"auth": {
+							"type": "basic",
+							"basic": [
+								{
+									"key": "password",
+									"value": "",
+									"type": "string"
+								},
+								{
+									"key": "username",
+									"value": "api",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/x-www-form-urlencoded",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "grant_type",
+									"value": "password",
+									"type": "text"
+								},
+								{
+									"key": "username",
+									"value": "admin",
+									"type": "text"
+								},
+								{
+									"key": "password",
+									"value": "admin",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "https://lowryrs-blog.herokuapp.com/oauth/token",
+							"protocol": "https",
+							"host": [
+								"lowryrs-blog",
+								"herokuapp",
+								"com"
+							],
+							"path": [
+								"oauth",
+								"token"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Update Profile (lowryrs)",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "97284c3d-3035-4adb-b49d-073ce1956fd8",
+									"type": "string"
+								}
+							]
+						},
+						"method": "PATCH",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"type": "text",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"lastName\": \"Edited by lowryrs\"\n}"
+						},
+						"url": {
+							"raw": "https://lowryrs-blog.herokuapp.com/profiles/1",
+							"protocol": "https",
+							"host": [
+								"lowryrs-blog",
+								"herokuapp",
+								"com"
+							],
+							"path": [
+								"profiles",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Update Profile (tester)",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "97284c3d-3035-4adb-b49d-073ce1956fd8",
+									"type": "string"
+								}
+							]
+						},
+						"method": "PATCH",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"lastName\": \"Edited by tester\"\n}"
+						},
+						"url": {
+							"raw": "https://lowryrs-blog.herokuapp.com/profiles/1",
+							"protocol": "https",
+							"host": [
+								"lowryrs-blog",
+								"herokuapp",
+								"com"
+							],
+							"path": [
+								"profiles",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Update Profile (admin)",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "97284c3d-3035-4adb-b49d-073ce1956fd8",
+									"type": "string"
+								}
+							]
+						},
+						"method": "PATCH",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"type": "text",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"lastName\": \"Edited by admin\"\n}"
+						},
+						"url": {
+							"raw": "https://lowryrs-blog.herokuapp.com/profiles/1",
+							"protocol": "https",
+							"host": [
+								"lowryrs-blog",
+								"herokuapp",
+								"com"
+							],
+							"path": [
+								"profiles",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Check Token (lowryrs)",
+					"request": {
+						"auth": {
+							"type": "basic",
+							"basic": [
+								{
+									"key": "password",
+									"value": "",
+									"type": "string"
+								},
+								{
+									"key": "username",
+									"value": "api",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/x-www-form-urlencoded",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "token",
+									"value": "b92f259d-c47f-4716-8f76-9197b03d6fea",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "https://lowryrs-blog.herokuapp.com/oauth/check_token",
+							"protocol": "https",
+							"host": [
+								"lowryrs-blog",
+								"herokuapp",
+								"com"
+							],
+							"path": [
+								"oauth",
+								"check_token"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Check Token (post client)",
+					"request": {
+						"auth": {
+							"type": "basic",
+							"basic": [
+								{
+									"key": "password",
+									"value": "secret",
+									"type": "string"
+								},
+								{
+									"key": "username",
+									"value": "post",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/x-www-form-urlencoded",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "token",
+									"value": "0f982ccb-708a-4d36-8d0f-540c039be433",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "https://lowryrs-blog.herokuapp.com/oauth/check_token",
+							"protocol": "https",
+							"host": [
+								"lowryrs-blog",
+								"herokuapp",
+								"com"
+							],
+							"path": [
+								"oauth",
+								"check_token"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Post",
+			"item": [
+				{
+					"name": "Get Posts",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "https://lowryrs-blog.herokuapp.com/posts?size=100",
+							"protocol": "https",
+							"host": [
+								"lowryrs-blog",
+								"herokuapp",
+								"com"
+							],
+							"path": [
+								"posts"
+							],
+							"query": [
+								{
+									"key": "size",
+									"value": "100"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Create Post (Anonymous)",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"author\": \"lowryrs@unk.edu\",\n\t\"content\": \"This is just a test.\"\n}"
+						},
+						"url": {
+							"raw": "https://lowryrs-blog.herokuapp.com/posts",
+							"protocol": "https",
+							"host": [
+								"lowryrs-blog",
+								"herokuapp",
+								"com"
+							],
+							"path": [
+								"posts"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Create Post (lowryrs)",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "ad008d75-d466-47fc-99bb-45c0bfd8534b",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"content\": \"This is just a test.\"\n}"
+						},
+						"url": {
+							"raw": "https://lowryrs-blog.herokuapp.com/posts",
+							"protocol": "https",
+							"host": [
+								"lowryrs-blog",
+								"herokuapp",
+								"com"
+							],
+							"path": [
+								"posts"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"id": "590be5bf-e306-45d5-98a8-a7acad83401a",
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"id": "3a55bedf-5fe8-48c0-b981-ab236437e84b",
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	]
+}

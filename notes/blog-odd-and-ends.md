@@ -1,5 +1,11 @@
 # Blog Odds and Ends
 
+Resources:
+
+* [cybr406-user-private](https://github.com/ryl/cybr406-user-private)
+* [cybr406-post-user](https://github.com/ryl/cybr406-user-private)
+* [Postman Collection](../files/oauth-demo-heroku.postman_collection.json)
+
 ## Pull cybr406-blog
 
 This project has updated routes.
