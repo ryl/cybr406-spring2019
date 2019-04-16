@@ -34,6 +34,7 @@
 | 03/14/19 | ~~Class Project Intro~~ Cancelled for weather | | | | |
 | 03/26/19 | OAuth sample demo, Work Day | | | | |
 | 03/28/19 | Class Project Intro, workday | | | [Project Proposal][project] | 04/01/19 |
+| 04/16/19 | Blog wrap-up | | | [Blog Wrap Up][blog-wrap-up] | 04/01/19 |
 
 # Class Topics
 
@@ -227,6 +228,7 @@
 [open-house]: /notes/open-house.md
 [Event Handler Shortcomings]: /notes/event-handler-shortcomings.md
 [Security - OAuth]: /notes/security-oauth.md
+[blog-wrap-up]: /notes/blog-odd-and-ends.md
 
 <!-- Demos -->
 [Books Demo]: https://github.com/ryl/cybr406-books
