@@ -36,3 +36,11 @@ Add support for PostgreSQL.
         .dataSource(dataSource);
   }
   ```
+* Make sure your client has `post` resource`
+```
+@Override
+    public void configure(ClientDetailsServiceConfigurer clients) throws Exception {
+        clients.inMemory()
+                .withClient("api")
+                    .resourceIds("profile", "post")
+```
